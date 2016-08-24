@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>个人中心-查看</title>
+<link type="text/css" rel="stylesheet" href="res/css/index.css" />
+</head>
+
+<body>
+<script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+<script>
+	$(function(){
+		$("#img_box_one").hover(function(){
+			$("#btn_delete").toggle();
+			});
+		});
+</script>
+	<div class="header">
+    	<div class="header_body">
+            <div class="logo">
+            	<img src="res/images/logo1.png" />
+                <img src="res/images/logo2.png" />
+            </div>
+            <div class="header_r">
+            	<a href="" class="login">登录</a>
+                <a href="">注册</a>
+            </div>
+    	</div>
+    </div>
+    <div class="nav">
+    	<div class="nav_body">
+        	<ul>
+            	<li>
+                	<a href="" class="nav_a mar_r0 sele">首页</a>
+                </li>
+                <li>
+                	<a href="" class="nav_a">项目介绍</a>
+                </li>
+                <li>
+                	<a href="" class="nav_a">项目公告</a>
+                </li>
+                <li>
+                	<a href="" class="nav_a">常见问题</a>
+                </li>
+                <li>
+                	<a href="" class="nav_a">相关下载</a>
+                </li>
+                <li>
+                	<a href="" class="nav_a">网站帮助</a>
+                </li>
+                <li>
+                	<a href="" class="nav_a mar_r0">患者关爱</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+    	<img src="res/images/banner4.jpg" />
+    </div>
+    <div class="main clearfix">
+    	<div class="l_menu">	
+        	<ul class="menu_01">	
+            	<li>
+                	<a href="" class="current">援助管理</a>
+                </li>
+                <li>
+                	<a href="">个人资料</a>
+                </li>
+                <li>
+                	<a href="" class="bor_b0">使用帮助</a>
+                </li>
+            </ul>
+        </div>
+		<div class="r_intro">
+        	<h3>援助第一疗程</h3>
+            <div class="r_intro_body">
+            	<div class="intro_top"></div>
+                <div class="c_info">
+                	<div class="return">
+                        <a href="">返回>></a>
+                    </div>
+                	<div class="wrapper">
+                    	<div>
+                            <h5 class="pad_t7">随访信息</h5>
+                            <div class="tb_box2 bor_btm">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td width="227" align="right">
+                                                <label>随访日期：</label>
+                                                <input type="text" value="2015-05-10" class="txt"/>
+                                            </td>
+                                            <td class="pad_l18">
+                                                <label>建议继续使用万珂：</label>
+                                                <input type="radio"  class="choice"/><label>是</label>
+                                                <input type="radio"  class="choice"/><label>否</label>
+                                            </td>
+                                            <td align="right">
+                                                <label>建议下次注射时间：</label>
+                                                <input type="text" value="2015-05-10"  class="txt"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right">
+                                                <label>计划使用剂量：</label>
+                                                <select class="txt">
+                                                	<option>1.4mg</option>
+                                                </select>
+                                            </td>
+                                            <td class="pad_l18">
+                                            	<label>指定医师：</label>
+                                                <input type="text" value="刘红"  class="txt"/>
+                                            </td>
+                                            <td align="right">
+                                                <label>材料提供方式：</label>
+                                                <input type="text" value="Web"  class="txt"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" valign="top">
+                                                <label>材料提供时间：</label>
+                                                <input type="text" value="2015-05-10"  class="txt"/>
+                                            </td>
+                                            <td class="pad_l18" colspan="2">
+                                                <label>医学随访扫描件：</label>
+                                                <input type="button" value="上传附件" class="btn btn_01"/>
+                                                <div class="upload_box">
+                                                	<div class="img_box_one" id="img_box_one">
+                                                    	<img src="res/images/img01.jpg" />
+                                                        <input type="button" class="btn btn_delete" id="btn_delete"/>
+                                                    </div>
+                                                    <div class="img_box_one">
+                                                    	<img src="res/images/img02.jpg" />
+                                                        <input type="button" class="btn btn_delete"/>
+                                                    </div>
+                                                    <div class="img_box_one">
+                                                    	<img src="res/images/img03.jpg" />
+                                                        <input type="button" class="btn btn_delete"/>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="save_box">
+                                	<input type="button" class="btn btn_01" value="保存" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="pad_t17">审核结果</h5>
+                            <p class="bor_btm">
+                                <span>审核结果：审核通过</span>
+                                <span>审核日期：2015-05-01 </span>
+                                <span>审核未过原因：家里太有钱了</span>
+                            </p>
+                        </div>
+                        <div>
+                            <h5 class="mar_b17">援助情况</h5>
+                            <div class="tb_box pad_b13">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th width="110">药品ID</th>
+                                            <th width="95">领取日期</th>
+                                            <th width="218">领取药店</th>
+                                            <th width="60">配发人</th>
+                                            <th width="132">药瓶药盒回收</th>
+                                            <th width="100">回收日期</th>
+                                        </tr>
+                                        <tr>
+                                            <td>YZ00203941</td>
+                                            <td>2015-04-11</td>
+                                            <td>北京医保权限大药房有限公司</td>
+                                            <td>程颖</td>
+                                            <td>是</td>
+                                            <td>2015-04-11</td>
+                                        </tr>
+                                        <tr class="tr_even">
+                                            <td>YZ00203941</td>
+                                            <td>2015-04-11</td>
+                                            <td>北京医保权限大药房有限公司</td>
+                                            <td>程颖</td>
+                                            <td>是</td>
+                                            <td>2015-04-11</td>
+                                        </tr>
+                                        <tr>
+                                            <td>YZ00203941</td>
+                                            <td>2015-04-11</td>
+                                            <td>北京医保权限大药房有限公司</td>
+                                            <td>程颖</td>
+                                            <td>是</td>
+                                            <td>2015-04-11</td>
+                                        </tr>
+                                        <tr class="tr_even">
+                                            <td>YZ00203941</td>
+                                            <td>2015-04-11</td>
+                                            <td>北京医保权限大药房有限公司</td>
+                                            <td>程颖</td>
+                                            <td>是</td>
+                                            <td>2015-04-11</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="intro_btm"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    	<div class="footer_body">
+        	<p>咨询热线：400-700-9266</p>
+            <p>邮寄地址：北京100062信箱22分箱（只接收邮政特快专递EMS)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮政编码：100062</p>
+        </div>
+    </div>
+</body>
+</html>
